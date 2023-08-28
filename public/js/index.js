@@ -1,5 +1,5 @@
 // Set the target date for the countdown
-const targetDate = new Date('2023-09-30T23:59:59');
+const targetDate = new Date('2023-08-31T23:59:59');
 
 // Update the countdown every second
 const countdownElement = document.getElementById('countdown');
