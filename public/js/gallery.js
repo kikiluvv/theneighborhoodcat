@@ -27,24 +27,29 @@ toggleScrollButton();
 
 
 
+var imageArray = [
+    "/public/assets/gallery/sheets/1.jpg",
+    "/public/assets/gallery/sheets/2.jpg",
+    "/public/assets/gallery/sheets/3.png"
+];
 
+var linkUrl = "https://form.jotform.com/232376224013042"; // Jotform URL
 
+var imageGallery = document.getElementById("imageGallery");
 
+imageArray.forEach(function (imageUrl) {
+    var imageContainer = document.createElement("div");
+    imageContainer.className = "image-container";
 
+    var anchor = document.createElement("a");
+    anchor.href = linkUrl;
+    anchor.target = "_blank";
 
-function generateFormLink(flashId) {
-    return `https://form.jotform.com/232376224013042?flashId=${flashId}`;
-}
+    var img = document.createElement("img");
+    img.src = imageUrl;
 
-document.addEventListener('DOMContentLoaded', function () {
-    const bookingLinks = document.querySelectorAll('.booking-link');
-    
-    bookingLinks.forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const flashId = this.getAttribute('data-id');
-            const schedulingLink = generateFormLink(flashId);
-            window.open(schedulingLink, 'blank');
-        });
-    });
+    anchor.appendChild(img);
+    imageContainer.appendChild(anchor);
+    imageGallery.appendChild(imageContainer);
 });
+
