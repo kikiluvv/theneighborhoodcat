@@ -232,7 +232,6 @@ body {
 @media (max-width: 768px) {
     #content-wrapper {
         font-size: medium;
-        padding: 15px;
     }
 
     .content-container {
@@ -265,7 +264,6 @@ body {
     }
 
     .nav-logo {
-        width: 50%;
         flex-direction: column;
     }
 
@@ -303,13 +301,8 @@ body {
         display: none;
     }
 
-    .row-child {
-        flex-wrap: nowrap;
-    }
-
-
     .logo {
-        width: 60%;
+        width: 80%;
     }
 
     .menu-open {

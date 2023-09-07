@@ -529,7 +529,6 @@ body {
     }
 
     .nav-logo {
-        width: 50%;
         flex-direction: column;
     }
 
@@ -568,7 +567,7 @@ body {
     }
 
     .logo {
-        width: 60%;
+        width: 80%;
     }
 
     .menu-open {
