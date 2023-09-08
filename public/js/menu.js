@@ -30,3 +30,21 @@ buttons.forEach(function (button) {
     }
   });
 });
+
+
+
+
+
+
+
+const text = document.querySelector(".wave-text");
+const letters = text.textContent.trim().split("");
+
+text.textContent = "";
+
+letters.forEach((letter, index) => {
+    const span = document.createElement("span");
+    span.textContent = letter;
+    text.appendChild(span);
+    span.style.animationDelay = `${index * 0.2}s`; // Adjust the delay as needed
+});
