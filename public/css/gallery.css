@@ -70,7 +70,7 @@ body {
 }
 
 .btn-active {
-    color: #c4ffb6;
+    text-decoration: underline;
 }
 
 .btn-particles {

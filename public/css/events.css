@@ -79,7 +79,7 @@ body {
 }
 
 .btn-active {
-    color: #fff99e;
+    text-decoration: underline;
 }
 
 .btn-particles {

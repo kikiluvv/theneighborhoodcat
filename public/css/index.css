@@ -112,8 +112,8 @@ body {
     transition: all 0.2s ease;
 }
 
-.nav-active {
-    color: #e6fce1;
+.btn-active {
+    text-decoration: underline;
 }
 
 .nav-href:hover {
