@@ -19,8 +19,13 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+  // Collect User-Agent String
+  var userAgent = navigator.userAgent;
+  gtag('set', {'user_agent': userAgent});
+
   gtag('config', 'G-VTG0DEXW6Y');
 </script>
+
 
 <body>
     <div id="page-wrapper">
