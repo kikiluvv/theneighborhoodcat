@@ -28,28 +28,14 @@ body {
 /* Nav Button */
 .shape {
     position: absolute;
-
-    box-shadow: #ccc;
     width: 100px;
     height: 100px;
     transform: scale(0.8);
 }
 
-.star {
-    opacity: 0.5;
-}
-
-.other-star {
-    opacity: 0.7;
-}
-
-.diamond {
-    opacity: 0.3;
-}
 
 .cir {
     position: absolute;
-    opacity: 0.5;
     border-radius: 50%;
     z-index: 5;
 }
