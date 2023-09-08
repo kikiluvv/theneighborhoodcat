@@ -99,14 +99,15 @@ body {
     background: none;
     box-shadow: none;
     border: none;
+    color: black;
 }
 
 .btn a{
-    color: var(--text-color);
+    color: black;
 }
 
 .btn-active {
-    color: #a28fc3;
+    color: #eae1fc;
 }
 
 .btn-particles {

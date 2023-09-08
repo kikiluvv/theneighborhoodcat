@@ -71,14 +71,15 @@ body {
     background: none;
     box-shadow: none;
     border: none;
+    color: black;
 }
 
 .btn a{
-    color: var(--text-color);
+    color: black;
 }
 
 .btn-active {
-    color: #a28fc3;
+    color: #fff99e;
 }
 
 .btn-particles {
@@ -186,7 +187,7 @@ body {
 }
 
 .nav-active {
-    color: #a28fc3;
+    color: #fcfae1;
 }
 
 .nav-href:hover {

@@ -28,13 +28,28 @@ body {
 /* Nav Button */
 .shape {
     position: absolute;
+
+    box-shadow: #ccc;
     width: 100px;
     height: 100px;
     transform: scale(0.8);
 }
 
+.star {
+    opacity: 0.5;
+}
+
+.other-star {
+    opacity: 0.7;
+}
+
+.diamond {
+    opacity: 0.3;
+}
+
 .cir {
     position: absolute;
+    opacity: 0.5;
     border-radius: 50%;
     z-index: 5;
 }
@@ -61,14 +76,15 @@ body {
     background: none;
     box-shadow: none;
     border: none;
+    color: black;
 }
 
 .btn a{
-    color: var(--text-color);
+    color: black;
 }
 
 .btn-active {
-    color: #a28fc3;
+    color: #c4ffb6;
 }
 
 .btn-particles {

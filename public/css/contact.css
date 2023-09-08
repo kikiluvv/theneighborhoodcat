@@ -67,14 +67,15 @@ body {
     background: none;
     box-shadow: none;
     border: none;
+    color: black;
 }
 
 .btn a{
-    color: var(--text-color);
+    color: black;
 }
 
 .btn-active {
-    color: #a28fc3;
+    color: #fce1fc;
 }
 
 .btn-particles {

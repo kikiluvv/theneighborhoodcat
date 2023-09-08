@@ -1,9 +1,7 @@
 $.fn.boom = function (e) {
     var colors = [
-      '#b4a9c8',
-      '#cecece',
-      '#b3b3b3',
-      '#a2a2a2'
+      '#e3e3e3',
+      '#e2e2e2'
       // '#FF9300',
       // '#FF7FA4'
     ];
