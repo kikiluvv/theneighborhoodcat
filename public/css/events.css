@@ -476,13 +476,17 @@ body {
     }
 
     .menu-open {
-        height: 40vh;
+        height: 55vh;
         z-index: 1;
         opacity: 1;
     }
 
     .image {
         margin: 5px;
+    }
+    
+    .gallery-container {
+        width: auto;
     }
 
 }

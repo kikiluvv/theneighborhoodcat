@@ -747,7 +747,7 @@ body {
     }
 
     .menu-open {
-        height: 40vh;
+        height: 55vh;
         z-index: 1;
         opacity: 1;
     }

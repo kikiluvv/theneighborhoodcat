@@ -33,18 +33,31 @@ buttons.forEach(function (button) {
 
 
 
+(function () {
+  'use strict';
 
+  var btnColors = document.querySelectorAll('.btn-color');
 
+  btnColors.forEach(function (p) {
+    var chars = p.textContent.split(''),
+        length = chars.length,
+        shift = -360 / length,
+        angle = 0,
+        span, t;
 
+    p.innerHTML = chars.map(function (char) {
+      return '<span>' + char + '</span>';
+    }).join('');
 
-const text = document.querySelector(".wave-text");
-const letters = text.textContent.trim().split("");
+    span = p.children;
 
-text.textContent = "";
+    function frame() {
+      for (var i = 0; i < length; i++) {
+        span[i].style.color = 'hsl(' + (angle + Math.floor(i * shift)) + ', 65%, 75%)';
+      }
+      angle++;
+    }
 
-letters.forEach((letter, index) => {
-    const span = document.createElement("span");
-    span.textContent = letter;
-    text.appendChild(span);
-    span.style.animationDelay = `${index * 0.2}s`; // Adjust the delay as needed
-});
+    t = setInterval(frame, 10);
+  });
+})();

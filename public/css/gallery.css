@@ -21,7 +21,15 @@ body {
 }
 
 
-
+#temp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    font-size: large
+}
 
 
 
@@ -98,9 +106,10 @@ body {
 }
 
 .flash-text {
-    font-size: x-small;
-    width: 100%;
+    font-size: small;
+    width: 50%;
     padding: 15px;
+    text-align: center;
 }
 
 
@@ -481,6 +490,11 @@ body {
         border-radius: 15px;
     }
 
+    .flash-text {
+        width: 80%;
+        font-size: x-small;
+    }
+
     .mobile-nav-container {
         display: flex;
         position: relative;
@@ -510,7 +524,7 @@ body {
     }
 
     .menu-open {
-        height: 40vh;
+        height: 55vh;
         z-index: 1;
         opacity: 1;
     }
