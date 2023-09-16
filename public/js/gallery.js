@@ -58,7 +58,6 @@ var linkUrl = "https://form.jotform.com/232376224013042"; // Jotform URL
 //----------------------------------------------------------------------------------------------------//
 
 
-
 var imageGallery = document.getElementById("imageGallery");
 
 imageArray.forEach(function (imageUrl) {
@@ -77,7 +76,6 @@ imageArray.forEach(function (imageUrl) {
     imageContainer.appendChild(anchor);
     imageGallery.appendChild(imageContainer);
 });
-
 
 
 function toggleScrollButton() {

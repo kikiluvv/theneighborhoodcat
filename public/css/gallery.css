@@ -106,8 +106,8 @@ body {
 }
 
 .flash-text {
-    font-size: small;
-    width: 50%;
+    font-size: medium;
+    width: 60%;
     padding: 15px;
     text-align: center;
 }
@@ -451,6 +451,9 @@ body {
         margin-top: 3vh;
         margin-bottom: 3vh;
         height: auto;
+    }
+    .flash-text {
+        font-size: small;
     }
 }
 

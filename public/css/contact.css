@@ -385,7 +385,13 @@ body {
 }
 
 .footer-text {
+    color: black;
     margin-bottom: 1vh;
+}
+
+.footer-link {
+    color: black;
+    cursor: pointer;
 }
 
 .hero-link {
@@ -479,6 +485,10 @@ body {
 
     .hero-link {
         font-size: x-large;
+    }
+
+    .footer-text {
+        font-size: medium;
     }
 
 }
